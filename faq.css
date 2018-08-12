@@ -1,0 +1,137 @@
+body {
+    font-family: inherit;
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.body .top-body .image {
+    color: #fff;
+    background: url("./image/faq.webp") no-repeat;
+    text-align: center;
+    height: 520px;
+    background-position: center;
+    background-size: cover;
+}
+
+.body .top-body .image h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 130px;
+    font-size: 72px;
+}
+
+.body .top-body .image h1:after {
+    content: '';
+    background: #fff;
+    height: 2px;
+    width: 80px;
+    z-index: 99;
+    display: block;
+    margin: 40px auto;
+}
+
+.body .top-body .image p {
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.body .content {
+    padding: 0 15px;
+    margin: 100px auto;
+    width: 1200px;
+}
+
+.body .content h1 {
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.body .content .no {
+    margin-bottom: 80px;
+}
+
+.body .content .no span {
+    color: #5580f7;
+}
+
+.body .anyfaq {
+    text-align: center;
+    padding: 80px 0;
+    background: linear-gradient(to right, #5ba4f4 0, #7272fd 40%, #736efe 100%);
+}
+
+.body .anyfaq .text {
+    color: #fff;
+    font-size: 36px;
+}
+
+.body .anyfaq .tip-arrow {
+    flex-direction: column;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body .anyfaq .dot {
+    margin-bottom: 8px;
+    width: 3px;
+    height: 3px;
+    background: #fff;
+}
+
+.body .anyfaq .arrow {
+    width: 20px;
+    height: 20px;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.footer .contact {
+    color: #fff;
+    background-color: #0a0b0f;
+    padding: 110px 0;
+    text-align: center;
+}
+
+.footer .contact h1 {
+    font-weight: bold;
+}
+
+.footer .contact h1:after {
+    content: '';
+    background: #5785eb;
+    height: 2px;
+    width: 100px;
+    z-index: 99;
+    display: block;
+    margin: 20px auto;
+}
+
+.footer .contact .contacticon {
+    margin: 60px 0;
+}
+
+.footer .contact .contacticon span {
+    transition: all 0.2s ease;
+    margin: 0 20px;
+    font-size: 23px;
+}
+
+.footer .contact .contacticon span:hover {
+    color: #2892de;
+}

@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <title>Achain</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./Achain.css" />
+    <link rel="stylesheet" type="text/css" href="./responsive.css" />
+    <link rel="stylesheet" type="text/css" href="./canvas.css" />
+    <script src="./lib/jquery/jquery-min.js"></script>
+</head>
+
+<body>
+
+    <nav class="col-xs-12 header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-1 logo">
+                    <a href="#home">
+                        <img src="./image/logoachain.png">
+                    </a>
+                </div>
+                <div class="col-sm-11 main_menu desktop">
+                    <ul class="">
+                        <li>
+                            Home
+                        </li>
+                        <li>
+                            <a href="#au" class="js-scroll-trigger">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#lt" class="js-scroll-trigger">Loyalty Program</a>
+                        </li>
+                        <li>
+                            <a href="#dm" class="js-scroll-trigger">Document</a>
+                        </li>
+                        <li>
+                            <a href="#rm" class="js-scroll-trigger">Roadmap</a>
+                        </li>
+                        <li>
+                            <a href="#wl" class="js-scroll-trigger">Wallet</a>
+                        </li>
+                        <li>
+                            <a href="#br" class="js-scroll-trigger">Browser</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobile bar" onclick="menu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="m-menu mobile">
+                    <ul class="">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#au" class="js-scroll-trigger">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#lt" class="js-scroll-trigger">Loyalty Program</a>
+                        </li>
+                        <li>
+                            <a href="#dm" class="js-scroll-trigger">Document</a>
+                        </li>
+                        <li>
+                            <a href="#rm" class="js-scroll-trigger">Roadmap</a>
+                        </li>
+                        <li>
+                            <a href="#wl" class="js-scroll-trigger">Wallet</a>
+                        </li>
+                        <li>
+                            <a href="#br" class="js-scroll-trigger">Browser</a>
+                        </li>
+                    </ul>
+                </div>
+                <script>
+                    var header = $(".header");
+
+                    function menu() {
+                        header.addClass("scrolled");
+                        $('.m-menu').toggleClass('active');
+                    }
+                </script>
+            </div>
+        </div>
+    </nav>
+    <!-- <div class="element">
+        <div id="particles-background" class="vertical-centered-box">
+            <canvas class="pg-canvas" width="100vh" height="100vh" style="display: block;"></canvas>
+            <canvas class="pg-canvas" width="100vh" height="100vh" style="display: block;"></canvas>
+        </div>
+        <div id="particles-foreground" class="vertical-centered-box">
+            <canvas class="pg-canvas" width="100vh" height="100vh" style="display: block;"></canvas>
+            <canvas class="pg-canvas" width="100vh" height="100vh" style="display: inline-block;"></canvas>
+        </div>
+    </div> -->
+    <section class="content-body">
+        <div id="home" class="col-xs-12 top-body">
+            <div class="image-top">
+                <img src="./image/logoheader.png">
+            </div>
+            <div class="slogan-body">
+                <p class="top">Building a Boundless Blockchain Reality</p>
+                <p class="bottom">Achain is a public blockchain platform that enables developers of all levels to issue tokens and create smart contracts, decentralized applications and blockchain systems. Achain is committed to building a global blockchain network for
+                    information exchange and value transactions.</p>
+            </div>
+            <div class="subscribe">
+                <input type="email" placeholder="Type your email...">
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+        <div id="au" class="col-xs-12 partner">
+            <h1>Partners</h1>
+            <div class="row">
+                <div class="col-sm-2 col-xs-6">
+                    <img src="./image/partner1.png" class="img img-fluid">
+                </div>
+                <div class="col-sm-2 col-xs-6">
+                    <img src="./image/partner2.png" class="img img-fluid">
+                </div>
+                <div class="col-sm-2 col-xs-6">
+                    <img src="./image/partner3.png" class="img img-fluid">
+                </div>
+                <div class="col-sm-2 col-xs-6">
+                    <img src="./image/partner4.jpg" class="img img-fluid">
+                </div>
+                <div class="col-sm-2 col-xs-6">
+                    <img src="./image/partner5.png" class="img img-fluid">
+                </div>
+                <div class="col-sm-2 col-xs-6">
+                    <img src="./image/partner6.png" class="img img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 singularity">
+            <div class="row">
+                <div class=" col-sm-6 singularity-image">
+                    <img class="block" src="./image/achainblock.png" class="img img-fluid">
+                    <img src="./image/global.png" class="img img-fluid">
+                </div>
+                <div class="col-sm-6 singularity-content">
+                    <div class="title">
+                        <img src="./image/subbsingularity.png" class="img img-fluid">
+                        <h1>Singularity</h1>
+                    </div>
+                    <h3>Smart Contract Network</h3>
+                    <p>The first stage was enhancing the security and stability of the Achain network. Smart contracts, digital assets and sandbox simulations were made available through a modularized design approach. Sandboxes can automatically test and
+                        monitor the environment where the newly created smart contracts operate, thereby ensuring those contracts run in a safe and stable environment within the Achain network.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 team">
+            <div class="container">
+                <h1>Team</h1>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="item">
+                            <img src="./image/person/1.jpg">
+                        </div>
+                        <p class="name">Dane Elliott</p>
+                        <p class="position">Business Director and Achain Speaker</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="item">
+                            <img src="./image/person/2.jpg">
+                        </div>
+                        <p class="name">Jonah Schulman</p>
+                        <p class="position">Community Manager</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="item">
+                            <img src="./image/person/3.jpg">
+                        </div>
+                        <p class="name">Trevor Sande</p>
+                        <p class="position">Community Manager in USA</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="item">
+                            <img src="./image/person/4.jpg">
+                        </div>
+                        <p class="name">Jeon Jung Kook</p>
+                        <p class="position">Community Manager in Korea</p>
+                    </div>
+                </div>
+                <div class="viewall">
+                    <a href="./community.html" target="_blank">
+                        <button>
+                            <span>See all</span>
+                            <!-- <span><i class="far fa-hand-point-right"></i></span> -->
+                        </button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 advantages">
+            <h1>Advantages</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <p>1000</p>
+                        <p>TPS</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>RDPOS</p>
+                        <p>Consensus Mechanism</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>BaaS</p>
+                        <p>Platform</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>VEP</p>
+                        <p>Cross-Chain Communication</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="lt" class="col-xs-12 loyalty">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7 intro">
+                        <video controls>
+                            <source src="./document/loyalty.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="col-sm-5 content">
+                        <h1>Achain Loyalty Program Registration</h1>
+                        <p>You can sign up to this Loyalty Program by sending <span>1 ACT</span> to:</p>
+                        <div class="send">
+                            <div class="address">
+                                <i class="fas fa-globe"></i>
+                                <p>ACT Address</p>
+                            </div>
+                            <div class="qacode">
+                                <i class="fas fa-qrcode"></i>
+                                <p>QA Code</p>
+                            </div>
+                        </div>
+                        <a href="./loyalty.html" target="_blank">
+                            <button>See more</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="dm" class="col-xs-12 document">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="./document/whitepaper.pdf" target="_blank">
+                        <img src="./image/wp.png" class="img img-fluid">
+                        <p>White Paper</p>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="./faq.html" target="_blank">
+                        <img src="./image/faq.png" class="img img-fluid">
+                        <p>FAQ</p>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="./document/guide.pdf" target="_blank">
+                        <img src="./image/guide.png" class="img img-fluid">
+                        <p>Wallet Guide</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="rm" class="col-xs-12 roadmap">
+            <div class="roadmap-content">
+                <div class="lable">
+                    <h1>Roadmap</h1>
+                </div>
+                <div class="image-roadmap">
+                    <img src="./image/roadmap.jpg">
+                </div>
+            </div>
+        </div>
+        <div id="wl" class="col-xs-12 wallet">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-sm-6 left">
+                        <div class="slider">
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="./image/wallet1.png" alt="...">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="./image/wallet2.png" alt="...">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="./image/wallet3.png" alt="...">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="./image/wallet4.png" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-sm-6 right">
+                        <h1>Achain Wallet</h1>
+                        <p>No need to install. Use straight after decompressing!</p>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="link">
+                                    <img src="./image/win.png">
+                                    <img src="./image/dow.png">
+                                </div>
+                                <div class="style">
+                                    <span>Win | Win-Lite</span>
+                                </div>
+                                <div class="version">
+                                    <span>V2.0.1</span>
+                                    <span>V2.0.2</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="link">
+                                    <img src="./image/phone.png">
+                                    <img src="./image/dow.png">
+                                </div>
+                                <div class="style">
+                                    <span>Phone</span>
+                                </div>
+                                <div class="version">
+                                    <span>Developed by Kcash</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="link">
+                                    <img src="./image/mac.png">
+                                    <img src="./image/dow.png">
+                                </div>
+                                <div class="style">
+                                    <span>Mac | Mac-Lite</span>
+                                </div>
+                                <div class="version">
+                                    <span>V2.0.0</span>
+                                    <span>V2.0.2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="br" class="col-xs-12 browser">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h1>27M+</h1>
+                    <p>Wallet</p>
+                </div>
+                <div class="col-sm-3">
+                    <h1>$200B+</h1>
+                    <p>Transacted</p>
+                </div>
+                <div class="col-sm-3">
+                    <h1>140</h1>
+                    <p>Countries</p>
+                </div>
+                <div class="col-sm-3">
+                    <h1>2011</h1>
+                    <p>Founded</p>
+                </div>
+            </div>
+            <div class="detail">
+                <a href="./browser.html" target="_blank">
+                    <button>
+                        <span>See more</span>
+                        <!-- <span><i class="far fa-hand-point-right"></i></span> -->
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="col-xs-12">
+                <div class="row">
+                    <h1>Contact Us</h1>
+                    <div class="contacticon">
+                        <span><i class="fas fa-envelope"></i></span>
+                        <span><i class="fab fa-github"></i></span>
+                        <span><i class="fab fa-facebook-square"></i></span>
+                        <span><i class="fab fa-twitter"></i></span>
+                        <span><i class="fab fa-weixin"></i></span>
+                    </div>
+                    <div class="text">
+                        ©2018 Copyright By Achain Demo Team
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button id="myBtn" class="back-to-top" onclick="topFunction()">
+        <i class="fas fa-angle-up"></i>
+    </button>
+
+
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./canvas.js"></script>
+    <script src="./script.js"></script>
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                console.log("AAA")
+                document.getElementById("myBtn").style.display = "flex";
+            } else {
+                console.log("CCC")
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 50) {
+                header.addClass("scrolled");
+            } else {
+                header.removeClass("scrolled");
+            }
+        });
+    </script>
+
+</body>
+
+</html>

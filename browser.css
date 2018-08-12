@@ -1,0 +1,127 @@
+body {
+    font-family: inherit;
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.body .top-body {
+    padding: 100px 0 50px;
+    text-align: center;
+    background: linear-gradient(to bottom, #1d1e37, #614ff4);
+}
+
+.body .top-body .row .col-sm-2 p:first-child {
+    height: 50px;
+    font-size: 13px;
+    color: #b3b0d5;
+}
+
+.body .top-body .row .col-sm-2 p:last-child {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.body .top-body .search {
+    position: relative;
+    color: #fff;
+    margin: 50px auto;
+    width: 640px;
+    height: 60px;
+    padding-left: 30px;
+    border-radius: 30px;
+    font-size: 13px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, .08)
+}
+
+.body .top-body .search input::-webkit-input-placeholder {
+    color: #b3b0d5;
+}
+
+.body .top-body .search input {
+    outline: none;
+    background: no-repeat;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.body .top-body .search .fa-search {
+    color: #b3b0d5;
+    right: 25px;
+    top: 10px;
+    position: absolute;
+    font-size: 36px;
+}
+
+.block {
+    margin: 80px 0;
+}
+
+.body .logo {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.body .logo img {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.body .container table {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #f9f9fc;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.body .container td {
+    text-align: left;
+    padding: 12px;
+}
+
+.block .container td:first-child,
+.block .container td:nth-child(5) {
+    color: #706eee;
+}
+
+.transaction .container td:first-child {
+    color: #706eee;
+}
+
+.block .container td:nth-child(2),
+.transaction .container td:last-child {
+    color: #999;
+}
+
+.block .container tr:first-child td {
+    color: #333;
+    font-weight: 600;
+    background-color: #f0f0f0 !important;
+}
+
+.body .container tr:nth-child(odd) {
+    background-color: #f9f9fc;
+}
+
+.body .transaction {
+    margin-bottom: 80px;
+}

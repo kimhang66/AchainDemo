@@ -1,0 +1,125 @@
+body {
+    font-family: inherit;
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.body .container h1 {
+    text-align: center;
+    font-size: 32px;
+    margin: 80px 0;
+    font-weight: 600;
+}
+
+.body .registration,
+.body .reward,
+.body .infomation {
+    background-color: #f7f7f7;
+    padding: 15px 30px;
+    margin-bottom: 50px;
+}
+
+.body .registration p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.body .registration p:last-child {
+    font-size: 14px;
+    color: #999;
+}
+
+.body .registration .address .fa-copy {
+    margin-left: 20px;
+}
+
+.body h2 {
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid #d7d8d9;
+    line-height: 1.5;
+    position: relative;
+}
+
+.body h2:before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    height: 100%;
+    width: 2px;
+    background: #6d74f9;
+}
+
+.body .address {
+    margin-right: 50px;
+    float: left;
+    padding-left: 20px;
+    font-size: 18px;
+    height: 80px;
+    line-height: 80px;
+    width: 675px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .08);
+}
+
+.body .image img {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    background: #fff;
+    padding: 15px;
+}
+
+.body .reward div {
+    background: #fff;
+    padding: 20px 28px;
+    margin-bottom: 24px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .08);
+}
+
+.body .reward h5 {
+    color: #6d74f9;
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.body .infomation table {
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.body .infomation td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+.body .infomation tr:first-child {
+    background-color: #000;
+    color: #fff;
+}
+
+.body .infomation td:first-child {
+    text-align: left;
+}
+
+.body .infomation td {
+    text-align: center;
+}
+
+.body .infomation p {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <title>Loyalty Program</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./login.css" />
+    <link rel="stylesheet" type="text/css" href="./loyalty.css" />
+</head>
+
+<body>
+
+    <nav class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-1 logo">
+                    <img src="./image/logoachain.png">
+                </div>
+                <div class="col-sm-11 main_menu">
+                    <ul class="">
+                        <a href="./index.html">
+                            <li>Subscribe</li>
+                        </a>
+                    </ul>
+                </div>
+                <!-- <div class="col-sm-1 login-btn">
+                    <a href="login.html">
+                        <button class="login desktop">
+                                    Login
+                                </button></a>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+
+    <nav class="body">
+        <div class="container">
+            <h1>Achain Loyalty Program</h1>
+            <section class="registration">
+                <h2>Achain Loyalty Program Registration</h2>
+                <p>Store your ACT tokens in either Achain PC/Web Wallet（https://www.achain.com）or Kcash Mobile Wallet (https://www.kcash.com).</p>
+                <p>You can sign up to this Loyalty Program by sending <span>1 ACT</span> to the following address:</p>
+                <div class="address">
+                    <span>ACT Address: ACTEiVHrZMwikGbft1nTPP1uyiQdxSd3DyJE</span>
+                    <span><i class="fas fa-copy"></i></span>
+                </div>
+                <span>or scan QR code</span>
+                <span class="image"><img src="./image/qacode.png"></span>
+                <p>
+                    Additional info: Once you transfer 1 ACT, your sign-up to the program will be confirmed and will be applicable to all phases of the program. You don't need to repeat it for each phase. Also, you may join Achain’s Loyalty Program at anytime. If you miss
+                    out on one of the phases, make sure you transfer 1 ACT as soon as possible so you can get in the next one! In addition, only the ACT balance in the address that transferred 1 ACT to the above ACT address will be recorded in the snapshots.</p>
+            </section>
+            <section class="reward">
+                <h2>Rewards & Distribution Principle</h2>
+                <div>
+                    <h5>How to calculate ACT balance for each phase?</h5>
+                    <p>Once the block height reaches 1950000, a snapshot will be taken for every 50000 blocks to scan your account balance. Each phase has 5 snapshots. Your average ACT balance for each phase is the average of all the 5 snapshots of your
+                        ACT balances. If you don’t participate or your balance is zero in any of the snapshots, the ACT value of that particular snapshot will be taken as ZERO while calculating the average ACT balance of that phase. If the average ACT
+                        balance of one phase is greater than 1 million, it will be considered as 1 million.</p>
+                    <p>For example: The third phase snapshots will be taken at the block heights of 1950000, 2000000, 2050000, 2100000 and 2150000. Likewise this pattern will continue for all subsequent phases.</p>
+                </div>
+                <div>
+                    <h5>How much ACT will be rewarded in each phase?</h5>
+                    <p>The base (fixed) reward value is 300K ACT. In addition, the incentive is adjusted to it according to the market price of ACT and the total number of ACT participated in the phase. The details are as follows:</p>
+                    <p>Amount of ACT Allocated for Rewards = Fixed reward value (300K ACT) + Price incentives (300K ACT or 0 ACT) + Total amount of ACT incentives (300K ACT or 0 ACT) </p>
+                    <ul>
+                        <li>Price incentives: According to CoinMarketCap platform, take the average value of the highest and lowest ACT/USDT price on the day of the last snapshot as the ACT/USDT price of the last snapshot . If it is higher than the ACT/USDT
+                            price of the last snapshot in the previous phase, then the ACT price incentive is considered as 300K ACT. Otherwise, it is 0. </li>
+                        <li>Total amount of ACT incentives : If the total amount of ACT participated in each phase is higher than the previous phase, then it's considered as 300K ACT. Otherwise, it is 0.</li>
+                    </ul>
+                    <p>Examples are given:</p>
+                    <p>If the ACT/USDT price and total amount of ACT taking part in the Loyalty Program are increased over the previous phase, then the amount of ACT allocated for reward = 300K + 300K + 300K = 900K ACT; </p>
+                    <p>If the ACT/USDT price is increased over the previous phase and the total amount of ACT taking part in the Loyalty Program is decreased over the previous phase, then the amount of ACT allocated for reward = 300K + 300K + 0 = 600K ACT;
+                    </p>
+                    <p>If the ACT/USDT price is decreased over the previous phase and the total amount of ACT taking part in the Loyalty Program is increased over the previous phase, then the amount of ACT allocated for reward = 300K + 0 + 300K = 600K ACT.
+                    </p>
+                    <p>If the ACT/USDT price and the total amount of ACT taking part in the Loyalty Program are decreased over the previous phase, then the amount of ACT allocated for reward = 300K + 0 + 0 = 300K ACT.</p>
+                </div>
+                <div>
+                    <h5>How much you will earn?</h5>
+                    <p>Your final reward of each phase = (Average ACT balance of the phase / Total amount of ACT participated in the phase) * (Amount of ACT allocated for reward in the phase)
+                    </p>
+                </div>
+            </section>
+            <section class="infomation">
+                <h2>Information Publicity</h2>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Phase 1</td>
+                        <td>Phase 2</td>
+                        <td>Phase 3</td>
+                        <td>Phase 4</td>
+                        <td>Phase 5</td>
+                        <td>Phase 6</td>
+                        <td>Phase 7</td>
+                        <td>Phase 8</td>
+                        <td>Phase 9</td>
+                        <td>Phase 10</td>
+                    </tr>
+                    <tr>
+                        <td>Deadline BlockHeight</td>
+                        <td>Ourdax</td>
+                        <td>2150000</td>
+                        <td>2400000</td>
+                        <td>2650000</td>
+                        <td>2900000</td>
+                        <td>3150000</td>
+                        <td>3400000</td>
+                        <td>3650000</td>
+                        <td>3900000</td>
+                        <td>4150000</td>
+                    </tr>
+                    <tr>
+                        <td>ACT/USDT (USD)</td>
+                        <td> 0.378289</td>
+                        <td>0.2368</td>
+                        <td>0.2911</td>
+                        <td>0.20105</td>
+                        <td>0.106594</td>
+                        <td>0.0802345</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Aggregate Amount (ACT)</td>
+                        <td>12721442</td>
+                        <td>68481190</td>
+                        <td>81277212</td>
+                        <td>96044109</td>
+                        <td>104918997</td>
+                        <td>107610237</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Amount of Reward (ACT)</td>
+                        <td>350000</td>
+                        <td>600000</td>
+                        <td>900000</td>
+                        <td>600000</td>
+                        <td>600000</td>
+                        <td>600000</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <p>The final reward of the second phase will be announced as the block height reaches 2150000 and the snapshot gets completed.
+                </p>
+                <p>
+                    5 snapshots of the second phase are already completed. For more info, please check: loyalty1950k.xlsx loyalty2000k.xlsx loyalty2050k.xlsx loyalty2100k.xlsx loyalty2150k.xlsx and Phase2_Reward.xlsx
+                </p>
+                <p>Snapshot data of Phase 3: loyalty2200k.xlsx loyalty2250k.xlsx loyalty2300k.xlsx loyalty2350k.xlsx loyalty2400k.xlsx Phase 3 Average.xlsx Phase 3 Reward.xlsx</p>
+                <p>
+                    Snapshot data of Phase 4: loyalty2450k.xlsx loyalty2500k.xlsx loyalty2550k.xlsx loyalty2600k.xlsx loyalty2650k.xlsx Phase 4 Reward.xlsx
+                </p>
+                <p>
+                    Snapshot data of Phase 5: loyalty2700k.xlsx loyalty2750k.xlsx loyalty2800k.xlsx loyalty2850k.xlsx loyalty2900k.xlsx Phase 5 Reward.xlsx
+                </p>
+                <p>
+                    Snapshot data of Phase 6: loyalty2950k.xlsx loyalty3000k.xlsx loyalty3050k.xlsx loyalty3100k.xlsx loyalty3150k.xlsx Phase 6 Reward.xlsx
+                </p>
+                <p>
+                    Snapshot data of Phase 7: loyalty3200k.xlsx
+                </p>
+            </section>
+        </div>
+    </nav>
+
+    <nav class="footer">
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <div class="contacticon">
+                <span><i class="fas fa-envelope"></i></span>
+                <span><i class="fab fa-github"></i></span>
+                <span><i class="fab fa-facebook-square"></i></span>
+                <span><i class="fab fa-twitter"></i></span>
+                <span><i class="fab fa-weixin"></i></span>
+            </div>
+            <div class="text">
+                ©2018 Copyright By Achain Demo Team
+            </div>
+        </section>
+    </nav>
+
+</body>
+
+</html>

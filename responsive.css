@@ -1,0 +1,213 @@
+@media(max-width:375px) {
+    .container .row {
+        display: block;
+        height: 100%;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .container .fa-bars {
+        color: #2892de;
+    }
+    .header {
+        /* position: relative; */
+        width: 100%;
+        z-index: 1;
+        top: 0px;
+    }
+    .header .fa-bars {
+        position: absolute;
+        top: 26px;
+        right: 30px;
+        font-size: 30px;
+    }
+    .header .m-menu {
+        width: 100%;
+        position: absolute;
+        top: 150px;
+        left: 0;
+        background: white;
+        display: none;
+    }
+    .header .m-menu.active {
+        display: block;
+        opacity: 1;
+        z-index: 2;
+    }
+    .header .m-menu ul {
+        color: rgb(133, 131, 131);
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        position: absolute;
+        top: -71px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background: #000;
+    }
+    .header .m-menu ul li {
+        border-top: 1px solid rgb(226, 222, 222);
+        font-size: 18px;
+        padding: 26px 0;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .header .m-menu ul li:hover {
+        color: white;
+        background: #2892de;
+    }
+    .header .logo {
+        height: 100%;
+        line-height: 80px;
+    }
+    .top-body .slogan-body p:first-child {
+        font-size: 24px!important;
+    }
+    .top-body .slogan-body p:last-child {
+        padding: 20px!important;
+    }
+    .top-body .subscribe input {
+        width: 56%;
+    }
+    .content-body .partner h1 {
+        margin-bottom: 44px;
+    }
+    .singularity {
+        padding: 64px;
+    }
+    .singularity::before {
+        left: 441px;
+    }
+    .singularity .singularity-image img {
+        width: 328px;
+    }
+    .singularity .singularity-content .title img {
+        width: 40px;
+        left: -24px;
+        top: 3px;
+    }
+    .singularity .singularity-image .block {
+        width: 80px;
+        left: 20px;
+        top: 200px;
+    }
+    .singularity .singularity-content {
+        padding: 32px;
+        text-align: center;
+    }
+    @keyframes block {
+        0%,
+        100% {
+            top: 80px;
+        }
+        50% {
+            top: 150px;
+        }
+    }
+    .partner,
+    .team,
+    .advantages,
+    .document,
+    .loyalty,
+    .browser,
+    .footer {
+        text-align: center;
+        padding-bottom: 64px;
+        padding-top: 64px;
+    }
+    .team .row .col-sm-3 .item {
+        width: 340px;
+        height: 340px;
+    }
+    .team .row .col-sm-3 img {
+        width: 340px;
+        height: 340px;
+    }
+    .team .row .col-sm-3 .name {
+        font-size: 26px;
+    }
+    .team .row .col-sm-3 .position {
+        font-size: 18px;
+    }
+    .advantages h1 {
+        margin-bottom: 50px;
+    }
+    .advantages .row .col-sm-3 {
+        margin-bottom: 40px;
+    }
+    .advantages .row .col-sm-3 p:first-child {
+        font-size: 25px;
+    }
+    .advantages .row .col-sm-3 p:first-child:after {
+        margin: 10px auto;
+    }
+    .loyalty .intro video {
+        height: 300px;
+    }
+    .loyalty .address {
+        width: 50%;
+    }
+    .document img {
+        position: relative;
+        width: 43%;
+        height: unset;
+        top: unset;
+        bottom: unset;
+        left: unset;
+        right: unset;
+    }
+    .document p {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 32px;
+        margin-top: 16px;
+    }
+    .roadmap-content {
+        padding: 0 0 64px 0;
+        text-align: center;
+    }
+    .wallet .left .slider:before {
+        width: 399px;
+        top: -76px;
+        left: -29px;
+    }
+    .wallet .left .slider {
+        width: 100%;
+        padding-top: 25px;
+        margin-left: 0;
+    }
+    #myCarousel {
+        margin: auto;
+        width: 253px;
+    }
+    .wallet .right {
+        margin-top: 265px;
+    }
+    .wallet .left .carousel-indicators {
+        bottom: -80px;
+    }
+    .wallet .link {
+        margin-bottom: 10px;
+    }
+    .wallet .right .col-sm-4 {
+        text-align:  center;
+        margin-bottom: 20px;
+    }
+    .wallet .right .link img:nth-child(2) {
+        right: 110px;
+    }
+    .wallet {
+        padding-top: 64px;
+        padding-bottom: 44px;
+    }
+    .browser .detail {
+        margin-top: 40px;
+    }
+    .browser .col-sm-3 {
+        margin-bottom: 50px;
+    }
+}

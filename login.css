@@ -1,0 +1,240 @@
+body {
+    font-family: inherit;
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.header {
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+}
+
+.container .row {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    height: 100%;
+    margin: auto;
+    width: 1200px;
+}
+
+.header .container .logo img {
+    height: 50px;
+}
+
+.main_menu {
+    height: 100%;
+    color: #999;
+    text-align: right;
+}
+
+
+/* a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+} */
+
+.main_menu ul {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main_menu>ul li {
+    text-align: right;
+    line-height: 80px;
+    height: 100%;
+    /* margin-left: 50px; */
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main_menu ul li:hover {
+    color: #ccc;
+    /* border-top: 5px solid #cdd72a; */
+    transition: all 0.5s ease-in-out;
+}
+
+
+/* .main_menu .parent {
+    position: relative;
+}
+
+.main_menu .parent .sub_menu {
+    width: 120px;
+    border-radius: 10px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    top: 60px;
+    left: -26px;
+    text-align: center;
+    color: black;
+    display: none;
+}
+
+.main_menu .parent .sub_menu dd {
+    height: 45px;
+    border-bottom: 1px solid #cfcfcf;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.main_menu .parent .sub_menu dd:first-child {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.main_menu .parent .sub_menu dd:last-child {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.main_menu .parent .sub_menu dd:hover {
+    background-color: rgb(224, 223, 223);
+    color: rgb(77, 75, 75);
+    transition: all 0.2s ease-in-out;
+}
+
+.main_menu ul li:hover .sub_menu {
+    display: block;
+}
+
+.header .container .login {
+    outline: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    float: right;
+    border: 1px solid #999;
+    border-radius: 15px;
+    background-color: transparent;
+    color: #999;
+}
+
+.header .container .login:hover {
+    color: #ccc;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+} */
+
+.form-login {
+    width: 440px;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+
+.form-login .title img {
+    width: 101px;
+    height: 32px;
+    margin-left: 8px;
+}
+
+.form-login .title {
+    margin-bottom: 20px;
+}
+
+.form-login .title h1 {
+    display: inline-block;
+}
+
+.form-login .form {
+    display: block;
+}
+
+.form-login .form input {
+    margin-bottom: 28px;
+    width: 440px;
+    height: 50px;
+    padding: 0 12px;
+    border: 1px #dfdfdf solid;
+    border-radius: 4px;
+    background-color: transparent;
+    outline: 0;
+    font-size: 16px;
+}
+
+.form-login .form input:nth-child(3) {
+    width: 250px;
+}
+
+.form-login .form span,
+.form-login .form p {
+    height: 50px;
+    line-height: 50px;
+    float: right;
+    color: #3a81fe;
+}
+
+.form-login .form span:hover,
+.form-login .form p:hover {
+    color: #383ba4;
+}
+
+.form-login .login-btn {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 15px;
+    width: 440px;
+    min-width: 64px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #595efc;
+    border-radius: 25px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer .contact {
+    color: #fff;
+    background-color: #0a0b0f;
+    padding: 110px 0;
+    text-align: center;
+}
+
+.footer .contact h1 {
+    font-weight: bold;
+}
+
+.footer .contact h1:after {
+    content: '';
+    background: #5785eb;
+    height: 2px;
+    width: 100px;
+    z-index: 99;
+    display: block;
+    margin: 20px auto;
+}
+
+.footer .contact .contacticon {
+    margin: 60px 0;
+}
+
+.footer .contact .contacticon span {
+    transition: all 0.2s ease;
+    margin: 0 20px;
+    font-size: 23px;
+}
+
+.footer .contact .contacticon span:hover {
+    color: #2892de;
+}
